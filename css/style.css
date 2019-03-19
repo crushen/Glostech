@@ -1,0 +1,599 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color: #2E2E2E;
+  line-height: 1.5em;
+}
+
+header {
+  background: url(../img/landing-background.png) no-repeat fixed;
+  color: #FFF;
+  height: 100vh;
+  box-shadow: 0px 6px 18px 0px rgba(158, 158, 158, 1);
+}
+
+/* MOBILE FIRST */
+/* Navbar */
+nav {
+  font-size: 1.3em;
+}
+
+#landing-logo {
+  width: 170px;
+}
+
+nav.color {
+  background-color: #195C98;
+  /*background-color: rgb(16, 107, 175);*/
+  transition: 0.5s;
+}
+
+nav.transparent {
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+a.nav-link.js-scroll-trigger {
+  padding: 1em;
+  color: #FFF;
+}
+
+a.nav-link.js-scroll-trigger:hover {
+  color: #d3d3d3;
+}
+
+.navbar-toggler-icon {
+  color: #FFF;
+  font-size: 1.5em;
+  padding-top: 7px;
+}
+
+.container-fluid {
+  max-width: 1300px;
+}
+
+/* Landing page */
+#landing-content {
+  text-align: center;
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#main-title {
+  font-size: 2.2em;
+  margin: 0.8em auto;
+  line-height: 1.3em;
+  max-width: 175px;
+
+}
+
+#sub-title {
+  font-size: 1.25em;
+  margin-bottom: 2.5em;
+  line-height: 1.3em;
+  max-width: 400px;
+}
+
+#landing-description {
+  margin-bottom: 2em;
+  max-width: 300px;
+}
+
+#landing-btn {
+  color: #2780D0;
+  padding: 1em 1.8em;
+  font-size: 0.875em;
+}
+
+/* General styling */
+.section-padding {
+  padding: 3.5em 0;
+}
+
+.section-title {
+  color: #2780D0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.blue-links {
+  color: #2780D0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2780D0;
+}
+
+/* About us */
+#about {
+  width: 85%;
+  margin: auto;
+}
+
+#about-title {
+  margin-bottom: 1.5em;
+}
+
+.about-text {
+  margin-bottom: 1em;
+}
+
+/* Services section */
+#services {
+  text-align: center;
+  padding-bottom: 0;
+  background: #F8F8F8;
+}
+
+#services-main-title {
+  margin-bottom: 1.5em;
+}
+
+.services-icon {
+  max-width: 280px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 6px 18px 0px rgba(158, 158, 158, 1);
+}
+
+.services-title {
+  color: #2780D0;
+  font-size: 1.25em;
+}
+
+.text-container-right {
+  padding: 2em 0 3.5em 0;
+}
+
+.text-container-left {
+  padding: 2em 0 3.5em 0;
+}
+
+.services-text {
+  width: 85%;
+  margin: 1em auto;
+  max-width: 530px;
+}
+
+/* services card option
+#services {
+  background-color: #E6F3FF;
+  padding: 3.5em 0;
+
+}
+.services-card {
+  background-color: #FFF;
+  width: 85%;
+  margin: 2em auto;
+  border-radius: 5px;
+  padding-bottom: 1em;
+  text-align: center;
+  -webkit-box-shadow: 6px 6px 16px 0px rgba(217,217,217,1);
+  -moz-box-shadow: 6px 6px 16px 0px rgba(217,217,217,1);
+  box-shadow: 6px 6px 16px 0px rgba(217,217,217,1);
+}
+.services-icon {
+  width: 60px;
+  margin: 1em;
+}
+.services-title {
+  color: #2780D0;
+  font-size: 1.125em;
+}
+.services-text {
+  width: 80%;
+  margin: 1em auto;
+} */
+
+
+/* Get in touch section */
+#contact {
+  background: url(../img/landing-background.png) no-repeat fixed;
+  color: #FFF;
+  text-align: center;
+}
+
+#contact-container {
+  width: 85%;
+  margin: auto;
+}
+
+.contact-title {
+  font-size: 1.7em;
+  padding: 0 0 2em 0;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#contact a:hover {
+  color: #d3d3d3;
+}
+
+#contact a.social-links {
+  padding: 0 0.5em;
+  font-size: 2em;
+}
+
+.contact-text {
+  margin: 1em 0;
+}
+
+/* Footer */
+footer {
+  background: #253241;
+  color: #FFF;
+  text-align: center;
+  padding: 3.5em 0 1em 0em;
+}
+
+#footer-container {
+  width: 85%;
+  margin: auto;
+}
+
+footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#footer-logo {
+  width: 200px;
+  padding: 0 0 1em 0;
+}
+
+.footer-contact {
+  padding: 2em 0;
+}
+
+.footer-links-container {
+  max-width: 318.75px;
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+.footer-links {
+  padding: 0.1em 0;
+}
+
+.footer-text {
+  font-size: 0.875em;
+}
+
+.footer-text-padding {
+  padding-bottom: 1em;
+}
+
+#footer-break {
+  height: 0.5px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 500px) {
+  #main-title {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    font-size: 1em;
+  }
+}
+
+/* Portrait tablet and up */
+@media screen and (min-width: 595px) {
+
+  /* Landing page */
+  #main-title {
+    font-size: 2.7em;
+    max-width: 100%;
+  }
+
+  #sub-title {
+    font-size: 1.4em;
+  }
+
+  #landing-description {
+    margin-bottom: 2em;
+    max-width: 400px;
+    font-size: 1.125em;
+  }
+
+  /* General styling */
+  .section-title {
+    font-size: 1.7em;
+  }
+
+  .section-padding {
+    padding: 4em 0;
+  }
+
+  /* About us section */
+  .about-text {
+    font-size: 1.125em;
+  }
+
+  .last-about-text {
+    font-size: 1.125em;
+  }
+
+  /* Services section */
+  #services {
+    padding-bottom: 1em;
+  }
+
+  .services-icon {
+    width: 60%;
+    margin: auto;
+  }
+
+  .services-title {
+    font-size: 1.45em;
+  }
+
+  .services-text {
+    font-size: 1.125em;
+  }
+
+  /* Get in touch section */
+  #contact {
+    font-size: 1.125em;
+  }
+
+  .contact-title {
+    font-size: 1.8em;
+  }
+}
+
+/* Footer columns */
+@media screen and (min-width: 770px) {
+  footer {
+    padding: 2em 0 2em 0;
+  }
+
+  #footer-title {
+    padding-bottom: 2.5em;
+  }
+
+  .footer-contact {
+    padding: 0 0 1em 0;
+  }
+
+  .footer-contact a {
+    padding-bottom: 0.8em;
+  }
+
+  .footer-contact .footer-number {
+    padding-top: 0.8em;
+  }
+
+  .footer-links-container {
+    padding-bottom: 0;
+  }
+
+  .footer-links {
+    padding-bottom: 0.7em;
+  }
+
+  .footer-text {
+    padding: 1em 0;
+  }
+
+  /* Footer grid */
+  #footer-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80% 10% 10%;
+    max-width: 1000px;
+  }
+
+  #left-footer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: start;
+    text-align: start;
+    align-self: end;
+  }
+
+  #right-footer {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: end;
+    text-align: start;
+    align-self: end;
+  }
+
+  #footer-break {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  #bottom-footer-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: start;
+    text-align: start;
+  }
+
+  #bottom-footer-right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: end;
+    text-align: end;
+  }
+}
+
+/* Landscape tablet and up */
+@media screen and (min-width: 1075px) {
+
+  /* Landing page */
+  #main-title {
+    font-size: 3.5em;
+  }
+
+  #sub-title {
+    font-size: 1.6em;
+  }
+
+  /* General styling */
+  .section-title {
+    font-size: 2em;
+  }
+
+  .section-padding {
+    padding: 6em 0;
+  }
+
+  /* About us section */
+  #about {
+    width: 75%;
+    margin: auto;
+    max-width: 940px;
+  }
+
+  #about-title {
+    margin-bottom: 1.8em;
+  }
+
+  .about-text {
+    margin-bottom: 2em;
+  }
+
+  /* Services section */
+  #services {
+    padding-bottom: 4em;
+  }
+
+  .card-container {
+    padding-bottom: 0.8em;
+  }
+
+  .services-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    margin: 3em auto 0 auto;
+  }
+
+  #repair-card {
+    margin-top: 6em;
+  }
+
+  #virus-card {
+    margin-top: 6em;
+  }
+
+  .services-icon {
+    flex: 1;
+    align-self: center;
+    max-width: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-container-right {
+    flex: 1;
+    text-align: left;
+    padding-left: 5em;
+  }
+
+  .text-container-left {
+    flex: 1;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .services-left {
+    flex-direction: row-reverse;
+  }
+
+  .services-title {
+    margin: 1em 0;
+    font-size: 1.7em;
+  }
+
+  .services-text {
+    margin: 1em 0;
+    max-width: 100%;
+  }
+
+  /* Get in touch section */
+  .contact-title {
+    font-size: 2em;
+    padding: 0 0 2em 0;
+  }
+
+  .contact-text {
+    margin: 1.6em 0;
+  }
+
+  #contact a.social-links {
+    padding: 0 0.5em;
+    font-size: 2.2em;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+
+  /* Landing page */
+  #main-title {
+    font-size: 4em;
+  }
+
+  #sub-title {
+    font-size: 1.8em;
+    max-width: 500px;
+  }
+
+  #landing-description {
+    max-width: 400px;
+    font-size: 1.2em;
+  }
+
+  #landing-btn {
+    font-size: 1.1em;
+  }
+
+  /* General styling */
+  .section-title {
+    font-size: 2.2em;
+  }
+
+  .section-padding {
+    padding: 8em 0;
+  }
+
+  /* About us section */
+
+  /* Services section */
+  .services-icon {
+    max-width: 200px;
+  }
+
+  /* Get in touch section */
+  .contact-title {
+    font-size: 2.2em;
+  }
+}
