@@ -9,6 +9,7 @@ body {
 /* Navbar */
 nav {
   font-size: 1.3em;
+  background-color: #195C98;
 }
 
 #landing-logo {
@@ -237,7 +238,7 @@ footer a {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   nav {
     font-size: 1em;
   }

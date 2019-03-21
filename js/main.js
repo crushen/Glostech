@@ -1,6 +1,5 @@
 // my javaScript
 var navScroll = document.querySelector("nav");
-var navToggle = document.getElementById("navBtn")
 
 // adds color to navbar on scroll
 window.onscroll = function (){
@@ -13,10 +12,6 @@ window.onscroll = function (){
         navScroll.classList.remove("color");
     }
 }
-
-// makes the menu not transparent when nav button clicked
-// only works once?
-navToggle.addEventListener("click", clickHandler);
 
 function clickHandler(){
     navScroll.classList.add("color");
