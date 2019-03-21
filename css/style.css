@@ -16,21 +16,12 @@ header {
 /* Navbar */
 nav {
   font-size: 1.3em;
+  background-color: #195C98;
+
 }
 
 #landing-logo {
   width: 170px;
-}
-
-nav.color {
-  background-color: #195C98;
-  /*background-color: rgb(16, 107, 175);*/
-  transition: 0.5s;
-}
-
-nav.transparent {
-  background-color: transparent;
-  transition: 0.5s;
 }
 
 a.nav-link.js-scroll-trigger {
@@ -284,9 +275,21 @@ footer a {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   nav {
     font-size: 1em;
+    background-color: transparent;
+  }
+
+  nav.color {
+    background-color: #195C98;
+    /*background-color: rgb(16, 107, 175);*/
+    transition: 0.5s;
+  }
+  
+  nav.transparent {
+    background-color: transparent;
+    transition: 0.5s;
   }
 }
 
